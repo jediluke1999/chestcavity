@@ -57,7 +57,7 @@ public class PlayerChestCavity extends HumanChestCavity implements ChestCavityTy
             forcefullyAddStack(cc, new ItemStack(CCItems.ROTTEN_SPINE),13);
         }
         if(cc.getOrganScore(CCOrganScores.STRENGTH) == 0){
-            forcefullyAddStack(cc, new ItemStack(Items.ROTTEN_FLESH,16),0);
+            forcefullyAddStack(cc, new ItemStack(Items.ROTTEN_FLESH),0);
         }
     }
 

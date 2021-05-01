@@ -20,7 +20,7 @@ public class ZombieChestCavity extends BaseChestCavity implements ChestCavityTyp
     @Override
     public void fillChestCavityInventory(ChestCavityInventory chestCavity) {
         chestCavity.clear();
-        //chestCavity.setStack(0, new ItemStack(Items.ROTTEN_FLESH, Items.ROTTEN_FLESH.getMaxCount()));
+        //chestCavity.setStack(0, new ItemStack(Items.ROTTEN_FLESH, 1));
         chestCavity.setStack(1, new ItemStack(CCItems.ROTTEN_RIB, CCItems.ROTTEN_RIB.getMaxCount()));
         chestCavity.setStack(2, new ItemStack(CCItems.ROTTEN_APPENDIX, CCItems.ROTTEN_APPENDIX.getMaxCount()));
         chestCavity.setStack(3, new ItemStack(CCItems.ROTTEN_LUNG, CCItems.ROTTEN_LUNG.getMaxCount()));
@@ -28,8 +28,8 @@ public class ZombieChestCavity extends BaseChestCavity implements ChestCavityTyp
         chestCavity.setStack(5, new ItemStack(CCItems.ROTTEN_LUNG, CCItems.ROTTEN_LUNG.getMaxCount()));
         chestCavity.setStack(6, ItemStack.EMPTY);
         //chestCavity.setStack(7, new ItemStack(CCItems.ROTTEN_RIB, CCItems.ROTTEN_RIB.getMaxCount()));
-        chestCavity.setStack(8, new ItemStack(Items.ROTTEN_FLESH, Items.ROTTEN_FLESH.getMaxCount()));
-        chestCavity.setStack(9, new ItemStack(Items.ROTTEN_FLESH, Items.ROTTEN_FLESH.getMaxCount()));
+        chestCavity.setStack(8, new ItemStack(Items.ROTTEN_FLESH, 1));
+        chestCavity.setStack(9, new ItemStack(Items.ROTTEN_FLESH, 1));
         chestCavity.setStack(10, new ItemStack(CCItems.ROTTEN_RIB, CCItems.ROTTEN_RIB.getMaxCount()));
         chestCavity.setStack(11, new ItemStack(CCItems.ROTTEN_SPLEEN, CCItems.ROTTEN_SPLEEN.getMaxCount()));
         chestCavity.setStack(12, new ItemStack(CCItems.ROTTEN_KIDNEY, CCItems.ROTTEN_KIDNEY.getMaxCount()));
@@ -37,16 +37,16 @@ public class ZombieChestCavity extends BaseChestCavity implements ChestCavityTyp
         chestCavity.setStack(14, new ItemStack(CCItems.ROTTEN_KIDNEY, CCItems.ROTTEN_KIDNEY.getMaxCount()));
         chestCavity.setStack(15, new ItemStack(CCItems.ROTTEN_LIVER, CCItems.ROTTEN_LIVER.getMaxCount()));
         //chestCavity.setStack(16, new ItemStack(CCItems.ROTTEN_RIB, CCItems.ROTTEN_RIB.getMaxCount()));
-        //chestCavity.setStack(17, new ItemStack(Items.ROTTEN_FLESH, Items.ROTTEN_FLESH.getMaxCount()));
-        chestCavity.setStack(18, new ItemStack(Items.ROTTEN_FLESH, Items.ROTTEN_FLESH.getMaxCount()));
-        //chestCavity.setStack(19, new ItemStack(Items.ROTTEN_FLESH, Items.ROTTEN_FLESH.getMaxCount()));
+        //chestCavity.setStack(17, new ItemStack(Items.ROTTEN_FLESH, 1));
+        chestCavity.setStack(18, new ItemStack(Items.ROTTEN_FLESH, 1));
+        //chestCavity.setStack(19, new ItemStack(Items.ROTTEN_FLESH, 1));
         //chestCavity.setStack(20, new ItemStack(CCItems.ROTTEN_INTESTINE, CCItems.ROTTEN_INTESTINE.getMaxCount()));
         chestCavity.setStack(21, new ItemStack(CCItems.ROTTEN_INTESTINE, CCItems.ROTTEN_INTESTINE.getMaxCount()));
         chestCavity.setStack(22, new ItemStack(CCItems.ROTTEN_STOMACH, CCItems.ROTTEN_STOMACH.getMaxCount()));
         chestCavity.setStack(23, new ItemStack(CCItems.ROTTEN_INTESTINE, CCItems.ROTTEN_INTESTINE.getMaxCount()));
         chestCavity.setStack(24, new ItemStack(CCItems.ROTTEN_INTESTINE, CCItems.ROTTEN_INTESTINE.getMaxCount()));
-        chestCavity.setStack(25, new ItemStack(Items.ROTTEN_FLESH, Items.ROTTEN_FLESH.getMaxCount()));
-        //chestCavity.setStack(26, new ItemStack(Items.ROTTEN_FLESH, Items.ROTTEN_FLESH.getMaxCount()));
+        chestCavity.setStack(25, new ItemStack(Items.ROTTEN_FLESH, 1));
+        //chestCavity.setStack(26, new ItemStack(Items.ROTTEN_FLESH, 1));
     }
 
     @Override
